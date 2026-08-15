@@ -28,3 +28,14 @@ Student Portal is a simple Java application for managing basic student informati
 
 3\. Verify the Java compiler using `javac -version`.
 
+
+
+## Compilation
+
+
+
+From the project root directory, compile the Java source file using:
+
+```bash
+javac src\StudentPortal.java
+
