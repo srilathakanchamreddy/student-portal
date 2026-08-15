@@ -39,3 +39,11 @@ From the project root directory, compile the Java source file using:
 ```bash
 javac src\StudentPortal.java
 
+
+## Running the Application
+
+After compiling the Java source file, run the application using:
+
+```bash
+java -cp src StudentPortal
+
