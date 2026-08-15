@@ -47,3 +47,13 @@ After compiling the Java source file, run the application using:
 ```bash
 java -cp src StudentPortal
 
+
+## Project Structure
+
+```text
+student-portal/
+|__ .gitignore/
+|__README.md
+|__src/
+      |__StudentPortal.java
+
