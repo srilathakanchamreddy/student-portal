@@ -1,11 +1,9 @@
 public class StudentPortal {
 
     public static void main(String[] args) {
-        String studentName = "Vinay";
-        String course = "M.Tech CSE";
+        Student student = new Student(101, "Vinay", "M.Tech CSE");
 
         System.out.println("Welcome to Student Portal");
-        System.out.println("Student: " + studentName);
-        System.out.println("Course: " + course);
+        student.displayDetails();
     }
 }
