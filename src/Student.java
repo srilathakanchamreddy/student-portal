@@ -14,4 +14,8 @@ public class Student {
         System.out.println("Student Name: " + name);
         System.out.println("Course: " + course);
     }
+
+   public void displayStatus() {
+    System.out.println("Status: Active");
+    }
 }

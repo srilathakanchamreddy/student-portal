@@ -5,5 +5,6 @@ public class StudentPortal {
 
         System.out.println("Welcome to Student Portal");
         student.displayDetails();
+	student.displayStatus();
     }
 }
