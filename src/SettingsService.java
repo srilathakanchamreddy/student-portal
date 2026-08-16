@@ -5,4 +5,8 @@ public class SettingsService {
         System.out.println("Notifications: Enabled");
         System.out.println("Theme: Default");
     }
+public void updateNotifications(boolean enabled) {
+    System.out.println("Notifications: "
+            + (enabled ? "Enabled" : "Disabled"));
+}
 }
