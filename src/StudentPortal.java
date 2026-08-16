@@ -20,5 +20,11 @@ public class StudentPortal {
 
         ProfileService profileService = new ProfileService();
         profileService.displayProfile(student);
+
+        DashboardService dashboardService = new DashboardService();
+
+        dashboardService.displayDashboard(student);
+        dashboardService.displayLoginStatus(authenticated);
+        dashboardService.displayEnrollmentSummary(student);
     }
 }
