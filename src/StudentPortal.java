@@ -26,5 +26,11 @@ public class StudentPortal {
         dashboardService.displayDashboard(student);
         dashboardService.displayLoginStatus(authenticated);
         dashboardService.displayEnrollmentSummary(student);
+
+        SettingsService settingsService = new SettingsService();
+
+        settingsService.displaySettings();
+        settingsService.updateNotifications(true);
+        settingsService.updateTheme("Default");
     }
 }

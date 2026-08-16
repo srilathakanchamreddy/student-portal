@@ -12,4 +12,5 @@ public void updateNotifications(boolean enabled) {
 public void updateTheme(String theme) {
     System.out.println("Theme changed to: " + theme);
 }
+
 }
