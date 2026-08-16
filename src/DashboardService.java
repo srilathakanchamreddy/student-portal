@@ -10,4 +10,9 @@ public void displayLoginStatus(boolean authenticated) {
     System.out.println("Login Status: "
             + (authenticated ? "Active" : "Inactive"));
 }
+
+public void displayEnrollmentSummary(StudentRecord student) {
+    System.out.println("Enrollment Status: Active");
+    System.out.println("Enrolled Course: " + student.getCourse());
+}
 }
