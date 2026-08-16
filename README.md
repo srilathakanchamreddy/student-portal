@@ -65,3 +65,9 @@ This project uses Git feature branches for organized development.
 ## Git Workflow
 
 Changes are developed in branches and merged into main after testing.
+
+## Development Notes
+
+The application is tested locally before changes are pushed.
+
+The project currently supports login, profile, dashboard, and settings features.
