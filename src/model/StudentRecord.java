@@ -18,4 +18,12 @@ public class StudentRecord {
    public void displayStatus() {
     System.out.println("Status: Active");
     }
+
+    public String getName() {
+       return name;
+    }
+
+     public String getCourse() {
+           return course;
+      }
 }
