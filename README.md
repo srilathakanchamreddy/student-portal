@@ -63,3 +63,5 @@ student-portal/
 This project uses Git feature branches for organized development.
 
 >>>>>>> conflict-test
+git add README.md
+git commit -m "Add development notes"
