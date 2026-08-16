@@ -17,5 +17,8 @@ public class StudentPortal {
 
         student.displayDetails();
         student.displayStatus();
+
+        ProfileService profileService = new ProfileService();
+        profileService.displayProfile(student);
     }
 }
