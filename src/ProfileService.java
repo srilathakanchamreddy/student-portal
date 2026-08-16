@@ -4,4 +4,7 @@ public class ProfileService {
         return "Student: " + student.getName()
                 + ", Course: " + student.getCourse();
     }
+public void updateCourse(StudentRecord student, String newCourse) {
+    student.setCourse(newCourse);
+}
 }
