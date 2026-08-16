@@ -59,4 +59,7 @@ student-portal/
 
 ## Branch Information
 
-The project is maintained using Git branches.
+<<<<<<< HEAD
+This project uses Git feature branches for organized development.
+
+>>>>>>> conflict-test
