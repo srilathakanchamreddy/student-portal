@@ -75,3 +75,13 @@ The project currently supports login, profile, dashboard, and settings features.
 ## History Correction Demo
 
 This section demonstrates correcting a commit message.
+
+## Repository Verification
+
+The Git history can be reviewed using the following commands:
+
+```bash
+git log --graph --oneline --all --decorate
+git branch -a
+git tag
+git status
