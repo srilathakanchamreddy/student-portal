@@ -1,0 +1,9 @@
+public class DashboardService {
+
+    public void displayDashboard(StudentRecord student) {
+        System.out.println("===== Student Dashboard =====");
+        System.out.println("Student ID: " + student.getId());
+        System.out.println("Student Name: " + student.getName());
+        System.out.println("Course: " + student.getCourse());
+    }
+}

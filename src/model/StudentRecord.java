@@ -29,4 +29,7 @@ public class StudentRecord {
 public void setCourse(String course) {
     this.course = course;
 }
+public int getId() {
+    return id;
+}
 }
