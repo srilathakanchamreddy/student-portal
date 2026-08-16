@@ -57,3 +57,7 @@ student-portal/
 |__src/
       |__StudentPortal.java
 
+## Branch Information
+
+This project uses feature branches for development.
+
