@@ -57,3 +57,6 @@ student-portal/
 |__src/
       |__StudentPortal.java
 
+## Branch Information
+
+The project is maintained using Git branches.
