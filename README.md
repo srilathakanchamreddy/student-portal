@@ -71,3 +71,7 @@ Changes are developed in branches and merged into main after testing.
 The application is tested locally before changes are pushed.
 
 The project currently supports login, profile, dashboard, and settings features.
+
+## History Correction Demo
+
+This section demonstrates correcting a commit message.
