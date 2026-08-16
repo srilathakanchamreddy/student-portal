@@ -59,7 +59,9 @@ student-portal/
 
 ## Branch Information
 
-<<<<<<< HEAD
+
 This project uses Git feature branches for organized development.
 
->>>>>>> conflict-test
+## Git Workflow
+
+Changes are developed in branches and merged into main after testing.
