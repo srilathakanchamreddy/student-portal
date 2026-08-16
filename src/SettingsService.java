@@ -9,4 +9,7 @@ public void updateNotifications(boolean enabled) {
     System.out.println("Notifications: "
             + (enabled ? "Enabled" : "Disabled"));
 }
+public void updateTheme(String theme) {
+    System.out.println("Theme changed to: " + theme);
+}
 }
